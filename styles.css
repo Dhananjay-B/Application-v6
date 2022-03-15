@@ -1,5 +1,6 @@
 body{
 color: white;
+font-family: 'Hubballi', cursive;
 }
 h5{
     text-align: center;
@@ -36,12 +37,31 @@ p{
     margin-left: 20px;
 }
 img{
-    width: 300%;
+    width: 200%;
     height: auto;
-    margin-left: -400px;
-    margin-top: -250px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.features{
+    margin-top: 190px;
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+}
+.ft-img{
+    width: 20%;
+    height: auto;
+    margin-left: 60px;
+    margin-bottom: 0;
 }
 
+.footer{
+    text-align: center;
+    padding: 50px 0 0 0;
+    height: 120px;
+    background-color: #019267;
+}
 @media (max-width: 1182px) {
     h5{
         padding: 20px 0 0 0;
@@ -69,5 +89,15 @@ img{
     }img{
         width: 120%;
         margin: -200px 0 0 -55px;
+    }
+    .features{
+        margin: 0 0 20px;
+        color: black;
+        text-align: center;
+        font-family: 'Hubballi', cursive;
+    }
+    .ft-img{
+        width: 20%;
+        margin: 0;
     }
 }
